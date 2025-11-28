@@ -1,0 +1,99 @@
+body {
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+
+/* wrapper */
+.wrapper {
+	max-width: 1300px;
+	padding: 0px 20px;
+	margin: 0 auto;
+}
+
+
+/* buttons */
+.btn-link-a {
+	border: 1.5px solid white;
+	border-radius: 8px;
+	max-width: 210px;
+	max-height: 50px;
+}
+
+.btn-text-content {
+	padding: 10px 40px;
+	color: white;
+	font-weight: 500;
+}
+
+.btn-img-content {
+	padding: 10px;
+}
+
+.btn-img-content .bag-img {
+	width: 20px;
+	height: 20px;
+}
+
+/*glass background effect*/
+.glass-background {
+	background: rgba(255, 255, 255, 0.0925);
+	backdrop-filter: blur(8.8px);
+	-webkit-backdrop-filter: blur(8.8px);
+}
+
+/* heading special borders */
+.heading-special-border {
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+	margin: 50px auto 0px auto;
+	position: relative;
+	padding: 15px;
+	max-width: max-content;
+}
+
+.heading-special-border::after {
+	content: "";
+	position: absolute;
+	left: 81%;
+	top: 15%;
+	width: 55px;
+	height: 36.5px;
+	background-color: transparent;
+	border-right: 3px solid #66a22e;
+	border-top: 3px solid #66a22e;
+	border-radius: 7.5% 16px 7.5%;
+}
+
+.heading-special-border::before {
+	content: "";
+	position: absolute;
+	left: 0%;
+	top: 35%;
+	background-color: transparent;
+	width: 55px;
+	height: 36.5px;
+	border-left: 3px solid #66a22e;
+	border-bottom: 3px solid #66a22e;
+	border-radius: 7.5% 15px 7.5%;
+}
+
+/* curved borders */
+.curved-top-border {
+	width: 300px;
+	height: 500px;
+	margin: 100px auto 0px;
+	border-radius: 50px;
+	position: relative;
+}
+
+.curved-top-border::before {
+	content: "";
+	position: absolute;
+	top: -22%;
+	left: 10%;
+	height: 25%;
+	width: 80%;
+	background: black;
+	border-radius: 47%;
+}
