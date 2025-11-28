@@ -9,7 +9,6 @@
 - [Technical Stack (Tech Stack)](#technical-stack-tech-stack)
 - [Key Features](#key-features)
 - [Contribution & Team](#contribution--team)
-- [My Role & Contribution Focus](#my-role--contribution-focus)
 
 ---
 
@@ -52,8 +51,6 @@ The project was built and executed using the following core technologies:
 
 This project was developed collaboratively within a team consisting of **7 members** as part of the training requirement.
 
----
-
 ### My Role & Contribution Focus:
 
 My primary focus during the project development was on the following key areas:
@@ -63,3 +60,4 @@ My primary focus during the project development was on the following key areas:
 3.  **Interactive Elements:** Implementing simple **JavaScript** functionalities to handle basic user interactions, such as button states and visual animations.
 
 ---
+
